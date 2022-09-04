@@ -1,6 +1,7 @@
 var username = prompt("Username:")
 if (username == null) {username = 'Guest'}
 if (username == username.length === 0 || username == '') {username = 'Guest'}
+if (username ==' ' || username == '  ' || username == '   ' || username == '    ' || username == '     ' || username == '      ' || username == '       ' || username == '        ') {username = 'Guest'}
 username = username.charAt(0).toUpperCase() + username.slice(1)
 var msginput = document.getElementById("msginput")
 var msglist = document.getElementById("msglist")
