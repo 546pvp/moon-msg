@@ -2,7 +2,7 @@
 
 html { overflow: auto; }
 html, body {
-    background-color: '#da9800'  /*rgba(227,255,0,1)*/
+    background-color: #da9800  /*rgba(227,255,0,1)*/
 }
 h2#header1 {
     text-align: center;
