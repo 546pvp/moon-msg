@@ -25,4 +25,5 @@ msginput.addEventListener('keypress', (e)=>{if (e.key == 'Enter') {
         content: msginput.value,
         user: username
     }
+    msginput.value = ''
 } }, false);
